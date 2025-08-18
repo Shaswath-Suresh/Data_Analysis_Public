@@ -17,3 +17,15 @@ if __name__ == '__main__':
                     arrays.append([i,j,k])
     
     print(arrays)
+
+## full use of list comprehensions -> all the levels
+
+""" result = [
+    [i, j, k]
+    for i in range(x + 1)
+    for j in range(y + 1)
+    for k in range(z + 1)
+    if i + j + k != n
+]
+
+print(result)""" 
