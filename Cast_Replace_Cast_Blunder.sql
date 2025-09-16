@@ -1,0 +1,2 @@
+SELECT CAST(CEILING(AVG(salary - CAST(REPLACE(CAST(salary AS VARCHAR(21)), '0', '') AS FLOAT))) AS INT)
+FROM employees;
