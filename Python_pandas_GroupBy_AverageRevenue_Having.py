@@ -1,5 +1,6 @@
 # access datasets as pandas dataframes
 import pandas as pd;
+stores = pd.DataFrame
 
 stores.head
 # perform the group by and aggregate the revenue column with mean(). reanme the columns
